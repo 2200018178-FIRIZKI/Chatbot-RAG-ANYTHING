@@ -1,0 +1,66 @@
+# ============================
+# PYTHON & ENVIRONMENT
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ============================
+# SYSTEM & EDITOR FILES
+# ============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ============================
+# RAGAnything / LightRAG STORAGE
+# ============================
+rag_storage/
+**/graph_chunk_entity_relation.graphml
+**/*.kv
+**/*.sqlite
+**/cache/
+**/llm_response_cache/
+**/*.bin
+
+# ============================
+# PDF INPUT / OUTPUT PARSING
+# ============================
+data/
+output/
+output/**
+*.pdf
+*.md
+*.json
+
+# Jika ingin menyimpan PDF input, hapus tanda ini:
+# !data/
+
+# ============================
+# LOGS
+# ============================
+logs/
+*.log
+
+# ============================
+# TEMP FILES
+# ============================
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ============================
+# OS-SPECIFIC FILES
+# ============================
+*.swp
+*.swo

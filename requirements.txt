@@ -1,0 +1,32 @@
+# ==== RAGAnything Core ====
+git+https://github.com/HKUDS/RAG-Anything.git
+
+# ==== LightRAG-HKU (auto-installed by RAGAnything) ====
+# jangan install manual (RAGAnything meng-install yang kompatibel)
+# lightrag-hku
+
+# ==== OCR & Parsing ====
+mineru
+pillow
+opencv-python
+
+# ==== PDF / Office parsing ====
+python-docx
+python-pptx
+pdfminer.six
+
+# ==== Environment & Utils ====
+python-dotenv
+tqdm
+requests
+
+# ==== FastAPI (optional, recommended for API server) ====
+fastapi
+uvicorn
+
+# ==== Embeddings, LLM tools ====
+tiktoken
+
+# ==== Data processing ====
+numpy
+pandas
