@@ -1,9 +1,8 @@
 # ==== RAGAnything Core ====
 git+https://github.com/HKUDS/RAG-Anything.git
 
-# ==== LightRAG-HKU (auto-installed by RAGAnything) ====
-# jangan install manual (RAGAnything meng-install yang kompatibel)
-# lightrag-hku
+# ==== OpenAI API ====
+openai
 
 # ==== OCR & Parsing ====
 mineru
